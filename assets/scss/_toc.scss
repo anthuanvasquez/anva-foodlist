@@ -1,0 +1,50 @@
+.fl-menu-toc {
+	background-color: #FFF;
+	border: 1px solid rgba(#DDD, 0.4);
+	margin-bottom: $padding*2;
+	position: relative;
+	z-index: 1;
+
+	&__heading {
+		font-weight: $base__font-weight;
+		letter-spacing: 1px;
+		margin: 0;
+		padding: $gutter;
+		text-transform: uppercase;
+	}
+
+	&__list {
+		background-color: $color__primary;
+		display: none;
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+	}
+
+	&__item {
+		border-top: 1px solid rgba(white, 0.1);
+		text-transform: uppercase;
+
+		&:last-child {
+			border-bottom: 1px solid rgba(white, 0.1);
+		}
+	}
+
+	&__link {
+		color: #FFF;
+		display: block;
+		padding: $gutter;
+		transition: background-color 0.4s ease;
+
+		&:hover {
+			color: #FFF;
+			background-color: rgba(white, 0.2);
+		}
+	}
+
+	&__icon {
+		color: $color__primary;
+		font-size: inherit;
+		cursor: pointer;
+	}
+}

@@ -1,0 +1,26 @@
+.fl-menu {
+	
+	// Ensure not styles the blog post entry
+	&:not(.hentry) {
+		border: 1px solid rgba(#DDD, 0.4);
+		border-radius: 4px 4px 0 0;
+		overflow: hidden;
+	}
+
+	&__heading {
+		margin-bottom: $padding;
+		letter-spacing: 1px;
+		padding: 20px 20px 0;
+		text-transform: uppercase;
+	}
+
+	&__list {
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+	}
+
+	+ a[href*="flprint"] {
+		display: none;
+	}
+}

@@ -1,0 +1,15 @@
+.fl-excerpt {
+	color: $color__excerpt;
+	margin-bottom: $gutter;
+
+	&--menu {
+		padding: 0 $padding;
+		margin-bottom: $padding;
+	}
+}
+
+.fl-menu-item-thumb {
+	border-radius: 50%;
+	float: none;
+	margin: 0;
+}

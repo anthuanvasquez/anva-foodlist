@@ -1,0 +1,31 @@
+.fl-menu-item {
+
+	&__heading {
+		margin: 0 0 $gutter;
+	}
+
+	&__excerpt {
+		color: $color__excerpt;
+		font-size: $base__font-size;
+		margin-bottom: $gutter;
+	}
+
+	&__content {
+		position: relative;
+		overflow: hidden;
+	}
+	
+	&__meta {
+		font-size: $base__font-size;
+		font-weight: 700;
+	}
+
+	&__thumbnail {
+		float: left;
+		margin: 0 $padding $padding 0;
+
+		@media screen and (max-width: 480px) {
+	 		display: none;
+		}
+	}
+}
