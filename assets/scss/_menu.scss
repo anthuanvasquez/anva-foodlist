@@ -2,13 +2,15 @@
 	
 	// Ensure not styles the blog post entry
 	&:not(.hentry) {
-		border: 1px solid rgba(#DDD, 0.4);
-		border-radius: 4px 4px 0 0;
-		overflow: hidden;
+		// Styles here
 	}
 
 	&__heading {
-		margin-bottom: $padding;
+		border: 1px solid $color__border;
+		border-bottom: 0;
+		border-radius: 4px 4px 0 0;
+		font-weight: $base__font-weight;
+		margin-bottom: 0;
 		letter-spacing: 1px;
 		padding: $padding $padding 0;
 		text-transform: uppercase;
@@ -18,6 +20,16 @@
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
+	}
+
+	&__section {
+		border: 1px solid $color__border;
+		border-radius: 4px 4px 0 0;
+		margin-bottom: $trim;
+
+		&:last-of-type {
+			margin-bottom: 0;
+		}
 	}
 
 	+ a[href*="flprint"] {

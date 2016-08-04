@@ -2,17 +2,17 @@
 	
 	&:not(.hentry) {
 		background-color: #FFF;
-		border-radius: 0;
 		margin-bottom: 0;
 		padding: 0 $padding $padding;
 	}
 
 	&__heading {
 		background-color: $color__primary;
+		border-radius: 4px 4px 0 0;
 		color: #FFF;
 		font-weight: $base__font-weight;
 		letter-spacing: 1px;
-		margin: 0 -($padding) $gutter;
+		margin: 0 (-$padding) $gutter;
 		padding: $padding;
 		text-transform: uppercase;
 	}
@@ -20,6 +20,10 @@
 	&__up {
 		color: #FFF;
 		float: right;
+
+		&:hover {
+			color: #FFF;
+		}
 	}
 
 	&__list {

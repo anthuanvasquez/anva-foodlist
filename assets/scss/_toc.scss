@@ -1,6 +1,7 @@
 .fl-menu-toc {
 	background-color: #FFF;
-	border: 1px solid rgba(#DDD, 0.4);
+	border: 1px solid $color__border;
+	border-radius: 4px;
 	margin-bottom: $padding*2;
 	position: relative;
 	z-index: 1;
@@ -46,5 +47,9 @@
 		color: $color__primary;
 		font-size: inherit;
 		cursor: pointer;
+	}
+
+	.single-fl-menu & {
+		margin-top: $padding*2;
 	}
 }

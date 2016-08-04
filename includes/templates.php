@@ -2,10 +2,10 @@
 /**
  * Foodlist menu template.
  *
- * @since   1.0.0
- *
  * @param   string $tpl
  * @return  $tpl
+ *
+ * @since   1.0.0
  */
 function anva_menu_template( $tpl ) {
 	
@@ -35,9 +35,10 @@ function anva_menu_template( $tpl ) {
 /**
  * Foodlist menu section template.
  *
- * @since  1.0.0
+ * @param  $tpl
+ * @return  $tpl
  * 
- * @return  $tpl The template for menu section
+ * @since  1.0.0
  */
 function anva_menu_section_template( $tpl ) {
 	
@@ -64,6 +65,9 @@ function anva_menu_section_template( $tpl ) {
 /**
  * Foodlist menu item template.
  *
+ * @param  $tpl
+ * @return  $tpl
+ * 
  * @since  1.0.0
  */
 function anva_menu_item_template( $tpl ) {	

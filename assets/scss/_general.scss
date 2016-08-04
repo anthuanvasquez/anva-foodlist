@@ -3,7 +3,9 @@
 	margin-bottom: $gutter;
 
 	&--menu {
-		padding: 0 $padding;
+		border: 1px solid $color__border;
+		border-top: 0;
+		padding: $padding;
 		margin-bottom: $padding;
 	}
 }

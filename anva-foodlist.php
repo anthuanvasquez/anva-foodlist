@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Anva Foodlist Support
+Plugin Name: Anva Foodlist
 Description: This plugin works in conjuction with the Foodlist to customize the look of menu sections and items.
 Version: 1.0.0
 Author: Anthuan Vásquez
@@ -19,8 +19,8 @@ define ( 'ANVA_FOODLIST_PLUGIN_DIR', dirname( __FILE__ ) );
 define ( 'ANVA_FOODLIST_PLUGIN_URI', plugins_url( '' , __FILE__ ) );
 
 // Load dependencies
-require_once( ANVA_FOODLIST_SUPPORT_PLUGIN_DIR . '/includes/general.php' );
-require_once( ANVA_FOODLIST_SUPPORT_PLUGIN_DIR . '/includes/templates.php' );
+require_once( ANVA_FOODLIST_PLUGIN_DIR . '/includes/general.php' );
+require_once( ANVA_FOODLIST_PLUGIN_DIR . '/includes/templates.php' );
 
 /**
  * Anva Foodlist Support Setup.
