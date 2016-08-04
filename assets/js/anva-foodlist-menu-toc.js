@@ -1,12 +1,12 @@
-(function($) {
+(function ( $ ) {
 
 	'use strict';
 
-	var $foodlistMenuToc = $(".fl-menu-toc");
+	var $foodlistMenuToc = $('.fl-menu-toc');
 
 	if ( $foodlistMenuToc.length > 0 ) {
 		
-		var $target = $(".fl-menu ul > li > .fl-menu-section > h2"),
+		var $target = $('.fl-menu ul > li > .fl-menu-section > h2'),
 			$title = $foodlistMenuToc.attr('data-title'),
 			htmlOutput = '',
 			element,
@@ -16,7 +16,10 @@
 			sectionLink;
 
 		htmlOutput += "<div class='fl-menu-toc__wrap'>";
-		htmlOutput += "<h2 class='fl-menu-toc__heading'><i class='fl-menu-toc__icon fa fa-bars'></i> " + $title + "</h2>";
+		htmlOutput += "<h2 class='fl-menu-toc__heading'>";
+		htmlOutput += "<i class='fl-menu-toc__icon fa fa-bars'></i>"
+		htmlOutput += " " + $title
+		htmlOutput += "</h2>";
 		htmlOutput += "<ul class='fl-menu-toc__list clearfix'>";
 		
 		$target.each( function() {
@@ -43,4 +46,4 @@
 		});
 	}
 
-})(jQuery);
+})( jQuery );
