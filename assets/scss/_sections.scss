@@ -4,16 +4,16 @@
 		background-color: #FFF;
 		border-radius: 0;
 		margin-bottom: 0;
-		padding: 0 20px 20px;
+		padding: 0 $padding $padding;
 	}
 
 	&__heading {
 		background-color: $color__primary;
 		color: #FFF;
-		font-weight: 400;
+		font-weight: $base__font-weight;
 		letter-spacing: 1px;
-		margin: 0 -20px 15px;
-		padding: 20px;
+		margin: 0 -($padding) $gutter;
+		padding: $padding;
 		text-transform: uppercase;
 	}
 
@@ -25,7 +25,7 @@
 	&__list {
 		list-style: none;
 		margin: 0;
-		margin-top: 20px;
+		margin-top: $padding;
 		padding-left: 0;
 	}
 

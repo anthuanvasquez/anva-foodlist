@@ -15,3 +15,11 @@ function anva_foodlist_scripts() {
 	// Add JS
 	wp_enqueue_script( 'anva-foodlist-js', ANVA_FOODLIST_SUPPORT_PLUGIN_URI . '/assets/js/anva-foodlist-menu-toc.js', array( 'jquery' ), ANVA_FOODLIST_SUPPORT_PLUGIN_VERSION, true );
 }
+
+function anva_foodlist_textdomain() {
+	load_plugin_textdomain(
+		'anva-foodlist',
+		false,
+		dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/'
+	);
+}
