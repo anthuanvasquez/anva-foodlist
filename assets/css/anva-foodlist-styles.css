@@ -20,7 +20,7 @@
 }
 
 .fl-menu-toc__list {
-  background-color: #222222;
+  background-color: #00A0D2;
   display: none;
   list-style: none;
   margin: 0;
@@ -50,7 +50,7 @@
 }
 
 .fl-menu-toc__icon {
-  color: #222222;
+  color: #00A0D2;
   font-size: inherit;
   cursor: pointer;
 }
@@ -118,7 +118,7 @@
 }
 
 .fl-menu-section__heading {
-  background-color: #222222;
+  background-color: #00A0D2;
   -webkit-border-radius: 4px 4px 0 0;
           border-radius: 4px 4px 0 0;
   color: #FFF;

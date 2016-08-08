@@ -25,6 +25,6 @@ function anva_foodlist_textdomain() {
 	load_plugin_textdomain(
 		'anva-foodlist',
 		false,
-		dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/'
+		dirname( plugin_basename( __FILE__ ) ) . '/languages'
 	);
 }

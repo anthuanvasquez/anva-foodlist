@@ -23,7 +23,7 @@ require_once( ANVA_FOODLIST_PLUGIN_DIR . '/includes/general.php' );
 require_once( ANVA_FOODLIST_PLUGIN_DIR . '/includes/templates.php' );
 
 /**
- * Anva Foodlist Support Setup.
+ * Anva Foodlist Init.
  *
  * @since 1.0.0
  */
